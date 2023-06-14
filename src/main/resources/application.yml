@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+  cache:
+    cache-names: topStories,commentsByStoryId
+    cacheManagerConfigFile: classpath:ehcache.xml
+
+hackernews:
+  api:
+    url: https://hacker-news.firebaseio.com/v0
+    
+logging:
+  level:
+    com.questionpro.proj.web.client.HackerNewsClient: DEBUG
+    

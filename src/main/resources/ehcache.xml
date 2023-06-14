@@ -1,0 +1,13 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.ehcache.org/ehcache.xsd"
+    updateCheck="false">
+
+    <cache name="topStories"
+        maxEntriesLocalHeap="1000"
+        timeToLiveSeconds="900" />
+        
+    <cache name="commentsByStoryId"
+        maxEntriesLocalHeap="500"
+        timeToLiveSeconds="900" />
+
+</ehcache>
