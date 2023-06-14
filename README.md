@@ -8,4 +8,4 @@ You can have look at the available APIs thru Swagger-UI.
 
 http://localhost:8080/swagger-ui/#/Stories
 
-![Hacker News API Swagger](API-Snaphot.png?raw=true "Hacker News API Swagger UI")
+![Hacker News API Swagger](API-Snaphot.jpg?raw=true "Hacker News API Swagger UI")
